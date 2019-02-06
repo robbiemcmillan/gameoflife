@@ -3,7 +3,8 @@
  * Model.java
  * Purpose: Provides a means of generating the initial grid, recording the amount of neighbours each cell has & 
  * includes a method to generate the next grid evolution based on the neighbours recorded. 
- * Also provides special methods to handle certain scenarios, namely horizontal & vertical lines as outlined in the instructions given.
+ * Also provides methods to handle certain scenarios. For example, when the grid is initiated with 
+ * horizontal or vertical lines of alive cells.
  * 
  * @author William Robbie McMillan
  * @version 1.0 07/02/19
