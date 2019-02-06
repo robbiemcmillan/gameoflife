@@ -32,7 +32,7 @@ public class View extends JFrame implements ActionListener {
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		setSize(500, 500);
 		setLocation(100, 100);
-		setTitle("BBC Game of Life Challenge");
+		setTitle("Game of Life Challenge");
 		setResizable(false);
 
 		viewInitialGridPanel();
