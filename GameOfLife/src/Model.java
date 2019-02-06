@@ -23,8 +23,8 @@ public class Model {
 
 	public Model() {
 
-		cellRows = 3;
-		cellColumns = 3;
+		cellRows = 16;
+		cellColumns = 16;
 		cellGrid = new Cell[cellRows][cellColumns];
 		verticalLineAlive = new Cell[cellRows][cellColumns];
 		horizontalLineAlive = new Cell[cellRows][cellColumns];

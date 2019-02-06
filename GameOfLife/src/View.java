@@ -50,7 +50,7 @@ public class View extends JFrame implements ActionListener {
 
 		gridFrame = new JPanel();
 		
-		gridFrame.setLayout(new GridLayout(3, 3));
+		gridFrame.setLayout(new GridLayout(16, 16));
 
 		model.generateInitialGrid();
 
