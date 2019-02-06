@@ -1,4 +1,4 @@
-# GameOfLife
+# Game of Life
 
 Java implementation of the Game of Life coding exercise.
 
