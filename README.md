@@ -1,10 +1,11 @@
 # GameOfLife
+
 Java implementation of the Game of Life coding exercise.
 
 ## Overview/Task
 
-To build a programme that exibits the game of life, 
-an ever evolving two dimensional grid, 
+To build a programme that exhibits the game of life, 
+an ever evolving two-dimensional grid, 
 that evolves over time based on a set of rules. 
 
 The rules are as follows:
@@ -26,4 +27,4 @@ Through the completion of this exercise a series of assumptions were made:
 
 ## Issues & Possible Solutions
 
-As I was not sure of the best way to implement an "infinite grid", I decided to make the grid fixed so I could continue on with the exercise. Furthermore, this created issues when counting neighbours as I had to deal with neighbours outwidth the boundaries of the grid. A possible way of rectifying this would be to create a much larger grid via a 2d arraylist that could be dynamically added to, and choose a section to show through the GUI. By doing this, the programme would not have to deal with boundary issues and could better mimic the "infinite grid".
+As I was not sure of the best way to implement an "infinite grid", I decided to make the grid fixed so I could continue with the exercise. Furthermore, this created issues when counting neighbours as I had to deal with neighbours out width the boundaries of the grid. A possible way of rectifying this would be to create a much larger grid via a 2d arraylist that could be dynamically added to and choose a section to show through the GUI. By doing this, the programme would not have to deal with boundary issues and could better mimic the "infinite grid" design.
