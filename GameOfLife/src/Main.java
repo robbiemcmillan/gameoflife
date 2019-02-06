@@ -1,4 +1,4 @@
-package src;
+package GameOfLife.src;
 
 /**
  * BBC Game of Life Exercise 

@@ -1,4 +1,4 @@
-package src;
+package GameOfLife.src;
 
 /**
  * Game of Life Exercise 

@@ -8,7 +8,7 @@
  * @author William Robbie McMillan
  * @version 1.0 07/02/19
  */
-package src;
+package GameOfLife.src;
 
 public class Cell {
 	
