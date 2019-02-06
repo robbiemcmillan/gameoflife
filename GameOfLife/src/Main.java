@@ -1,7 +1,7 @@
 package GameOfLife.src;
 
 /**
- * BBC Game of Life Exercise 
+ * Game of Life Exercise 
  * Main.java
  * Purpose: Initialises the GUI.
  * 
