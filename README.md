@@ -1,6 +1,6 @@
 # Game of Life
 
-Java implementation of the Game of Life coding exercise.
+Java implementation of the Game of Life programming exercise.
 
 ## Overview/Task
 
