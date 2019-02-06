@@ -59,7 +59,7 @@ public class View extends JFrame implements ActionListener {
 			for (int j = 0; j < cellGrid.length; j++) {
 				cell = new JButton();
 
-				if (cellGrid[i][j].isAlive()) { // Colour each JButton black or white based on it status.
+				if (cellGrid[i][j].isAlive()) { // Colour each JButton black or white based on its status.
 					cell.setBackground(Color.black);
 				}
 				gridFrame.add(cell); // Add JButton to JPanel.
@@ -73,7 +73,7 @@ public class View extends JFrame implements ActionListener {
 	}
 
 	/*
-	 * Method to create the to generate the evolved grid and update the gridFrame
+	 * Method to generate the evolved grid and update the gridFrame
 	 * JPanel with the new grid.
 	 */
 
@@ -136,14 +136,11 @@ public class View extends JFrame implements ActionListener {
 		this.add(buttonPanel, BorderLayout.SOUTH);
 	}
 
-	public void promptUserForDimensions() {
-
-		gridSize = JOptionPane.showInputDialog(null, "Set the Grid Size!");
-
-	}
 
 	/*
-	 * pause: pause the output resume: restart the timer restart: start again with a
+	 * pause: pause the output 
+	 * resume: restart the timer 
+	 * restart: start again with a
 	 * new initial grid.
 	 */
 
