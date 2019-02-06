@@ -12,7 +12,7 @@ package GameOfLife.src;
 
 enum NeighbourLocation {
 	
-	 	NORTHWEST(-1, -1),
+	    NORTHWEST(-1, -1),
 	    NORTH(0, -1),
 	    NORTHEAST(1, -1),
 	    EAST(1, 0),
